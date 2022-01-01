@@ -34,31 +34,35 @@ computer = random.choice(comp)
 
 user=int(input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors: \n"))
 
-if position[user]=="rock":
-  print(rock)
-elif position[user]=="paper":
-  print(paper)
-elif position[user]=="scissors":
-  print(scissors)
+if user<3:
+  if position[user]=="rock":
+    print(rock)
+  elif position[user]=="paper":
+    print(paper)
+  elif position[user]=="scissors":
+    print(scissors)
+  else:
+    print("Not Valid")
+
+  print("\n\nComputer Chooses:")
+  if position[computer]=="rock":
+    print(rock)
+  elif position[computer]=="paper":
+    print(paper)
+  elif position[computer]=="scissors":
+    print(scissors)
+
+
+  if user==computer:
+    print("It's Draw.")
+  elif user==0 and computer==2:
+    print("You Win.")
+  elif user==2 and computer==1:
+    print("You Win.")
+  elif user==1 and computer==0:
+    print("You Win.")
+  else:
+    print("You Lose.")
+
 else:
-  print("Not Valid")
-
-print("\n\nComputer Chooses:")
-if position[computer]=="rock":
-  print(rock)
-elif position[computer]=="paper":
-  print(paper)
-elif position[computer]=="scissors":
-  print(scissors)
-
-
-if user==computer:
-  print("It's Draw.")
-elif user==0 and computer==2:
-  print("You Win.")
-elif user==2 and computer==1:
-  print("You Win.")
-elif user==1 and computer==0:
-  print("You Win.")
-else:
-  print("You Lose.")
+  print("Not a Valid Option.")
