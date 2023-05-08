@@ -20,7 +20,6 @@ Amount per person= Total Bill after tip / number of people
 '''
 payment= (bill+((tip_percent/100)*bill))/no_of_people
 
-
 # Print Amount to be paid by each person, rounding upto 2 decimal places
 #print("Each person should pay: {:.2f}".format(round(payment,2)) )
 #print("Each person should pay: %.2f" % round(payment,2))
