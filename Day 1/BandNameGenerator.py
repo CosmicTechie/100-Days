@@ -6,3 +6,4 @@ nationality=input("What is your Nationality?\n")
 monument=input("What is one thing that you like the most? \n")
 #4. Combine the Nationality and most liked thing,  and show them their band name.
 print("Your Band Name could be "+nationality + " " + monument)
+
