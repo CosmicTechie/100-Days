@@ -24,3 +24,4 @@ payment= (bill+((tip_percent/100)*bill))/no_of_people
 #print("Each person should pay: {:.2f}".format(round(payment,2)) )
 #print("Each person should pay: %.2f" % round(payment,2))
 print("Each person should pay: ",round(payment,2))
+
