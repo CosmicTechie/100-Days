@@ -57,9 +57,9 @@ if user<3:
     print("It's Draw.")
   elif user==0 and computer==2:
     print("You Win.")
-  elif user==2 and computer==1:
-    print("You Win.")
-  elif user==1 and computer==0:
+  elif computer==0 and user==2:
+    print("Computer Win.")
+  elif user>computer:
     print("You Win.")
   else:
     print("You Lose.")
