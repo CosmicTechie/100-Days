@@ -52,7 +52,7 @@ if user<3:
   elif position[computer]=="scissors":
     print(scissors)
 
-
+    
   if user==computer:
     print("It's Draw.")
   elif user==0 and computer==2:
