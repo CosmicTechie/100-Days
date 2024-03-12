@@ -23,7 +23,6 @@ print('''
 
 
 anime=input("Which Anime you like? : Dragon Ball or Naruto  \n")
-
 anime=anime.lower()
 
 if anime=='dragon ball' or anime=='dragonball':
